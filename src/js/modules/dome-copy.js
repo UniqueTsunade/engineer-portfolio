@@ -56,7 +56,7 @@ export function dome() {
 
     const loader = new GLTFLoader();
 
-    loader.load("../../img/dome/dome.gltf", (gltf) => {
+    loader.load("../img/dome/dome.gltf", (gltf) => {
       gltf.scene.scale.set(0.1, 0.1, 0.1);
       scene.add(gltf.scene);
     },  undefined, (error) => {
