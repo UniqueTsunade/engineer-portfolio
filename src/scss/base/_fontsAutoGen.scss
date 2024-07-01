@@ -13,16 +13,23 @@
 	font-style: normal;
 }
 @font-face {
-	font-family: PPWriter;
+	font-family: PoiretOne;
 	font-display: swap;
-	src: url("../fonts/PPWriter-Regular.woff2") format("woff2"), url("../fonts/PPWriter-Regular.woff") format("woff");
+	src: url("../fonts/PoiretOne-Regular.woff2") format("woff2"), url("../fonts/PoiretOne-Regular.woff") format("woff");
 	font-weight: 400;
 	font-style: normal;
 }
 @font-face {
-	font-family: PoiretOne;
+	font-family: Metrika;
 	font-display: swap;
-	src: url("../fonts/PoiretOne-Regular.woff2") format("woff2"), url("../fonts/PoiretOne-Regular.woff") format("woff");
+	src: url("../fonts/Metrika.woff2") format("woff2"), url("../fonts/Metrika.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: PPWriter;
+	font-display: swap;
+	src: url("../fonts/PPWriter-Regular.woff2") format("woff2"), url("../fonts/PPWriter-Regular.woff") format("woff");
 	font-weight: 400;
 	font-style: normal;
 }
@@ -45,13 +52,6 @@
 	font-display: swap;
 	src: url("../fonts/Raleway-Light.woff2") format("woff2"), url("../fonts/Raleway-Light.woff") format("woff");
 	font-weight: 300;
-	font-style: normal;
-}
-@font-face {
-	font-family: Metrika;
-	font-display: swap;
-	src: url("../fonts/Metrika.woff2") format("woff2"), url("../fonts/Metrika.woff") format("woff");
-	font-weight: 400;
 	font-style: normal;
 }
 @font-face {
