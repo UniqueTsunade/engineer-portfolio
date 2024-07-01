@@ -1,0 +1,33 @@
+.fifth-project {
+    padding-bottom: 30px;
+}
+
+.fifth-project__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 20px;
+
+    @include tablet {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.fifth-project__photo-wrapper {
+    justify-content: center;
+}
+
+.fifth-project__photo {
+    width: 19vw;
+
+
+    @include tablet {
+        width: 60vw;
+
+    }
+
+    @include mobile {
+        width: 70vw;
+    }
+}

@@ -1,0 +1,22 @@
+.experience {
+    justify-self: center;
+    
+    @include tablet() {
+        padding-left: 9px;
+    }
+
+    @include mobile() {
+        padding-left: 0;
+    }
+}
+
+.experience__title {
+    font-size: clamp(1.688rem, 1.662rem + 0.13vw, 1.875rem);
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.experience__text {
+    font-size: 20px;
+    margin-bottom: 20px;
+}

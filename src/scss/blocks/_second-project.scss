@@ -1,0 +1,34 @@
+.second-project {
+    padding-bottom: 30px;  
+}
+
+.second-project__content {
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+    @include mobile {
+        flex-direction: column;
+    }
+}
+
+.second-project__layer {
+    width: 50vw;
+
+    @include tablet {
+        width: 90vw;
+    }
+
+    @include mobile {
+        margin-bottom: 20px;
+    }
+}
+
+.second-project__photo {
+    width: 25vw;
+
+    @include tablet {
+        width: 40vw;
+    }
+}

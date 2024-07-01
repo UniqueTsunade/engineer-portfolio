@@ -1,0 +1,60 @@
+.skills-profile {
+    padding: 30px 10px 0 20px;
+
+    @include tablet() {
+        padding: 30px 10px 0 9px;
+    }
+ 
+    @include mobile() {
+        padding: 30px 0 0 0;
+        margin: 0 auto;
+    }
+}
+
+.skills__grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+
+    @include tablet() {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    @include mobile() {
+        display: block;
+    }
+}
+
+.skills-profile__photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+
+    @include mobile() {
+        margin: 0 auto 50px;
+    }
+}
+
+.skills-profile__subtitle {
+    font-size: clamp(1.625rem, 1.6rem + 0.13vw, 1.813rem);
+    margin-bottom: 10px;
+    font-weight: 400;
+    
+    @include mobile() {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+}
+
+.skills-profile__profession {
+    margin-bottom: 45px;
+    font-size: clamp(1.438rem, 1.421rem + 0.08vw, 1.563rem);
+    font-weight: 300;
+
+    @include mobile() {
+        margin-bottom: 70px;
+        text-align: center;
+    }
+}
+
+

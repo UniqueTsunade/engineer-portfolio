@@ -1,0 +1,29 @@
+.contact-list {
+   margin-bottom: clamp(4.375rem, 4.124rem + 1.26vw, 6.25rem);
+   display: flex;
+   flex-direction: column;
+   row-gap: 30px;
+   font-size: 23px;
+
+   @include mobile() {
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    row-gap: 35px;
+   }
+}
+
+.contact-list__item {
+    display: flex;
+    align-items: end;
+    column-gap: 10px;
+}
+
+.contact-list__icon {
+    width: 25px;
+    height: 25px;
+}
+
+.contact-list__link {
+    color: var(--text-color);
+}

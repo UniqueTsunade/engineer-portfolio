@@ -1,0 +1,44 @@
+.third-project {
+    padding-bottom: 30px;
+}
+
+.third-project__content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+
+    @include tablet {
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+
+.third-project__layer {
+    width: 40vw;
+
+    @include tablet {
+        width: 90vw;
+    }
+}
+
+
+.third-project__layer:nth-of-type(odd) {
+    justify-self: end;
+    align-self: center;
+}
+
+
+.third-project__layer:nth-of-type(even) {
+    justify-self: start;
+    align-self: center;
+}
+
+.third-project__layer--last {
+    width: 40vw;
+    margin: 20px auto;
+
+    @include tablet {
+        width: 90vw;
+    }
+}

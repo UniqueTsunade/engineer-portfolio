@@ -1,0 +1,53 @@
+.seventh-project {
+    padding-bottom: 30px;
+}
+
+.seventh-project__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+
+    &--second {
+        padding-top: 30px;
+    }
+
+    @include tablet {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.seventh-project__layer {
+    width: 40vw;
+
+    &--last {
+        margin: 20px auto 0;
+    }
+
+    @include tablet {
+        width: 90vw;
+    }
+
+}
+
+.seventh-project__video {
+    justify-self: center;
+    width: 16vw;
+    height: auto;
+
+    @include tablet {
+        width: 45vw;
+    }
+}
+
+.seventh-project__layer:nth-of-type(odd) {
+    justify-self: end;
+    align-self: center;
+}
+
+
+.seventh-project__layer:nth-of-type(even) {
+    justify-self: start;
+    align-self: center;
+}

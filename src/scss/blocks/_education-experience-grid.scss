@@ -1,0 +1,10 @@
+.education-experience-grid {
+    font-family: Raleway;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 80px;
+
+    @include tablet() {
+        display: block;
+    }
+}

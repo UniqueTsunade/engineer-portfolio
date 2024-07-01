@@ -1,0 +1,36 @@
+.eighth-project__content {
+    padding-top: 50px;
+}
+
+.eighth-project__flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    padding-bottom: 30px;
+
+    @include tablet {
+        flex-direction: column;
+        row-gap: clamp(1.875rem, 1.708rem + 0.84vw, 3.125rem);
+    }
+}
+
+
+.eighth-project__photo {
+    width: 45vw;
+    justify-self: center;
+    align-self: center;
+
+    @include tablet {
+        width: 90vw;
+    }
+}
+
+.eighth-project__photo-tower {
+    width: 19vw;
+
+    @include tablet {
+        width: 70vw;
+    }
+}
+

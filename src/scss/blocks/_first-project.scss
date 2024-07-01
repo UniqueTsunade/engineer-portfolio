@@ -1,0 +1,45 @@
+.first-project {
+    padding-bottom: 30px;
+}
+
+.first-project__layouts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: flex-end;
+    align-items: center;
+
+    @include tablet() {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+}
+
+.first-project__photo  {
+    @include tablet() {
+        width: 80vw;
+    }
+}
+
+.first-project__layers {
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+
+    @include tablet() {
+        flex-direction: column;
+        row-gap: 30px;
+        align-content: center;
+        align-items: center;
+    }
+}
+
+.first-project__layer {
+    width: 40vw;
+
+    @include tablet() {
+        width: 90vw;
+    }
+}
+

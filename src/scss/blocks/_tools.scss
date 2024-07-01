@@ -1,0 +1,14 @@
+.tools {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    margin-bottom: 100px;
+}
+
+.tools__title {
+    font-size: clamp(1.875rem, 1.791rem + 0.42vw, 2.5rem);
+    text-align: center;
+    margin-bottom: clamp(4.375rem, 4.124rem + 1.26vw, 6.25rem);
+}
+
