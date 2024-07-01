@@ -12,8 +12,8 @@ Fancybox.bind('[data-fancybox]', {
 });
 
 import {loader} from "./modules/loader.js"
-import {dome} from "./modules/dome-copy.js";
-import {figure} from "./modules/figure-copy.js";
+import {dome} from "./modules/dome.js";
+import {figure} from "./modules/figure.js";
 import {slider} from "./modules/swiper.js"
 
 // loader();
