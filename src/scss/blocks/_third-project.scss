@@ -1,11 +1,13 @@
 .third-project {
     padding-bottom: 30px;
+    
 }
 
 .third-project__content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
+    
 
     @include tablet {
         display: flex;

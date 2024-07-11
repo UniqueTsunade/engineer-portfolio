@@ -11,7 +11,7 @@ Fancybox.bind('[data-fancybox]', {
 	// Your custom options
 });
 
-import {loader} from "./modules/loader.js"
+import {loader} from "./modules/loader.js";
 import {dome} from "./modules/dome.js";
 import {figure} from "./modules/figure.js";
 import {slider} from "./modules/swiper.js"

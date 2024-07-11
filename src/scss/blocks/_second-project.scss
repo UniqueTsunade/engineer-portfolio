@@ -31,4 +31,8 @@
     @include tablet {
         width: 40vw;
     }
+
+    @include mobile {
+        width: 70vw;
+    }
 }
