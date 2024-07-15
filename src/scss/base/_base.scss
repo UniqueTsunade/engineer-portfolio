@@ -46,4 +46,11 @@ pre.code {
 	border-radius: 4px;
 }
 
-
+.progress-bar {
+	background: linear-gradient(90deg, hsla(180, 94%, 21%, 1) 0%, hsla(182, 44%, 34%, 1) 0%, hsla(179, 53%, 31%, 1) 0%, hsla(177, 71%, 27%, 1) 10%, hsla(173, 57%, 33%, 1) 20%, hsla(170, 46%, 38%, 1) 30%, hsla(166, 38%, 45%, 1) 40%, hsla(162, 34%, 50%, 1) 49%, hsla(157, 37%, 56%, 1) 59%, hsla(153, 41%, 62%, 1) 70%, hsla(148, 47%, 68%, 1) 80%, hsla(142, 56%, 74%, 1) 90%, hsla(142, 56%, 74%, 1) 100%, hsla(142, 56%, 80%, 1) 100%);
+	width: 85%;
+	border-radius: 15px;
+	box-shadow: 5px 11px 10px -3px rgba(0,0,0,0.1);
+	height: 10px;
+	align-self: center;
+}

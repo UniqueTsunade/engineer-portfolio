@@ -16,6 +16,11 @@
 
 .fifth-project__photo-wrapper {
     justify-content: center;
+    padding-left: 11vw;
+
+    @include tablet {
+        padding-left: 0;
+    }
 }
 
 .fifth-project__photo {
