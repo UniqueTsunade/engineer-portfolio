@@ -45,10 +45,14 @@
 		"last 5 versions"
 	],
 	"dependencies": {
+		"@ashthornton/asscroll": "^2.0.11",
 		"@fancyapps/fancybox": "^3.5.7",
 		"@fancyapps/ui": "^5.0.35",
+		"@studio-freight/lenis": "^1.0.42",
 		"avif-webp-checker": "^1.0.0",
+		"gsap": "^3.12.5",
 		"lazysizes": "^5.3.2",
+		"locomotive-scroll": "^4.1.4",
 		"swiper": "^11.1.4",
 		"three": "^0.165.0"
 	}
